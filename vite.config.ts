@@ -21,6 +21,12 @@ export default defineConfig({
         short_name: "RC Productos",
         description: "Productos React",
         theme_color: "#ffffff",
+        icons: [
+          {
+            src: "vite.svg",
+            sizes: "1024x1024",
+          },
+        ],
       },
     }),
   ],
