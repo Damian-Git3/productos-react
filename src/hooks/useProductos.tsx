@@ -2,7 +2,7 @@ import axios from "axios";
 import { useReducer } from "react";
 import { IProduct, Purchase } from "../interfaces/productos.interfaces";
 import { useNavigate } from "react-router-dom";
-const api: string = "http://localhost:3000/api";
+const api: string = "https://examen-mena-backend.onrender.com/api";
 
 // Estado inicial
 const initialState = {
